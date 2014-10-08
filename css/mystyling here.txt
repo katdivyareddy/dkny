@@ -1,0 +1,11 @@
+
+function coTerminalCtrl($scope){
+  $scope.toptions=new Array();
+  
+  for(var i=0; i<10; i++){
+    $scope.toptions.push({
+    name: i+"n"+i+"n"+i+" Name Of the Subject Goes HereName Of the Subject Goes Here",
+    value: i+"n"+i+"n"+i,
+    index: i
+    });
+  }
